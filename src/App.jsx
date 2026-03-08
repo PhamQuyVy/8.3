@@ -2,8 +2,8 @@ import { motion } from "framer-motion"
 import confetti from "canvas-confetti"
 import { useState, useEffect, useRef } from "react"
 
-import musicFile from "./assets/music.mp3"
-import clickFile from "./assets/click.mp3"
+const musicFile = "/music.mp3"
+const clickFile = "/click.mp3"
 
 const wishes = [
 "Chúc Tli/Vy/Trâm luôn xinh đẹp và sớm có bồ🌸 ",
